@@ -1,0 +1,25 @@
+{
+  "name": "graphql-weather-api-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "graphql": "^16.10.0"
+  }
+}
